@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Activity_List_Stare"
+android:orientation="vertical"
+android:keepScreenOn="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/listStar_LBL_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="TABLE SCORE:"
+            android:textStyle="italic"
+            android:textColor="#9831AA"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+<FrameLayout
+    android:id="@+id/listStar_LAY_list"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:padding="32dp"
+    android:background="#D1BDF6"
+
+    />
+
+
+<FrameLayout
+    android:id="@+id/listStar_LAY_map"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+
+   />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

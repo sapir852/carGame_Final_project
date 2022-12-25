@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Game_Over"
+    android:keepScreenOn="true">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/gameOver_IMG_backgrond"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFE2A8"
+        android:scaleType="centerCrop" />
+
+
+
+    <TextView
+        android:id="@+id/gameOver_TXT_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="1"
+        android:text="000"
+        android:textAlignment="center"
+        android:textColor="#DFAF1E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/gameOver_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gameOver_TXT_score"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+    <EditText
+        android:id="@+id/gameOver_ETXT_namePlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#99000000" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gameOver_BTN_saveName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#DFAF1E"
+            android:text="Save"
+            android:textColor="@color/white" >
+
+        </com.google.android.material.button.MaterialButton>
+
+
+        <ImageView
+            android:id="@+id/gameOver_Im_logoGameOver"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_above="@id/gameOver_TXT_score"
+            android:src="@drawable/im_game_over" />
+
+
+
+    </LinearLayout>
+    <View
+    android:id="@+id/gameOver_IMG_im"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="#00FF0000"
+        android:visibility="invisible"
+        android:layout_marginTop="260dp"
+        android:layout_below="@+id/gameOver_layout"
+        android:layout_alignParentEnd="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/gameOver_IMG_im"
+        android:layout_marginEnd="15dp"
+
+        android:layout_marginTop="100dp"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/gameOver_BTN_exit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint = "#DFAF1E"
+            android:layout_marginEnd="10dp"
+            android:textStyle="italic"
+            android:textSize="22dp"
+            android:text="EXIT"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/gameOver_BTN_play_again"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint = "#DFAF1E"
+            android:textStyle="italic"
+            android:textSize="22dp"
+            android:text="PLAY AGAIN"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
