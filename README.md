@@ -17,7 +17,7 @@ _Final car Game:_
 #Using Timer - for sceduled appearance of the obstacles<br>
 #Using Vibrator & Toast - for every crash<br>
 
-* Using **java** - this application was programmed by java and android studio environment<br>
+* this application was programmed by java and android studio environment<br>
 
 project screenshots:
 
