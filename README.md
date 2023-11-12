@@ -21,5 +21,6 @@ _Final car Game:_
 
 project screenshots:
 
-*menu:* <br>
-<img src=![WhatsApp Image 2023-11-12 at 17 51 54 (3)](https://github.com/sapir852/carGame_Final_project/assets/46643472/a1e7c65d-0d83-4396-aa8b-926d671f7534)width="300">
+*menu:* 
+<br><img src="https://github.com/sapir852/carGame_Final_project/assets/46643472/a1e7c65d-0d83-4396-aa8b-926d671f7534" alt="Your Image Alt Text" width="300">
+
