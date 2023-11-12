@@ -25,7 +25,7 @@ project screenshots:
 <br><img src="https://github.com/sapir852/carGame_Final_project/assets/46643472/a1e7c65d-0d83-4396-aa8b-926d671f7534" alt="Your Image Alt Text" width="300">
 
 *game:* 
-<img src="https://github.com/sapir852/carGame_Final_project/assets/46643472/b3b12477-68b2-4e2d-b30c-f75f2256e8bf" alt="Your Image Alt Text" width="300">
+<br><img src="https://github.com/sapir852/carGame_Final_project/assets/46643472/b3b12477-68b2-4e2d-b30c-f75f2256e8bf" alt="Your Image Alt Text" width="300">
 
 *game over*
-<img src="https://github.com/sapir852/carGame_Final_project/assets/46643472/58aeb88b-539a-495a-b43d-48634fe6d6e7" alt="Your Image Alt Text" width="300">
+<br><img src="https://github.com/sapir852/carGame_Final_project/assets/46643472/58aeb88b-539a-495a-b43d-48634fe6d6e7" alt="Your Image Alt Text" width="300">
