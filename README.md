@@ -2,22 +2,22 @@
 
 _Final car Game:_
 
-#Three-lane road
-#Player that can move left and right
-#Obstacles on the road
-#Obstacles come at a constant speed on the road (obstacles comes towards player)
-#Crash notification - toast message + vibration
-#3 lives
+#Three-lane road <br>
+#Player that can move left and right<br>
+#Obstacles on the road<br>
+#Obstacles come at a constant speed on the road (obstacles comes towards player)<br>
+#Crash notification - toast message + vibration<br>
+#3 lives<br>
 #sensor mode
 
 
-#Using onPause - when exiting the app, it freezes
-#Using onResume - when returning to the app, it continues from where it paused
-#Using Glide - loading image from the internet
-#Using Timer - for sceduled appearance of the obstacles
-#Using Vibrator & Toast - for every crash
+#Using onPause - when exiting the app, it freezes<br>
+#Using onResume - when returning to the app, it continues from where it paused<br>
+#Using Glide - loading image from the internet<br>
+#Using Timer - for sceduled appearance of the obstacles<br>
+#Using Vibrator & Toast - for every crash<br>
 
-* Using **java** - this application was programmed by java and android studio environment
+* Using **java** - this application was programmed by java and android studio environment<br>
 
 project screenshots:
 
